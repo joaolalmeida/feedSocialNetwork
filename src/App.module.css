@@ -1,0 +1,28 @@
+.wrapper { /* USAR ESTAS CONFIG PARA PROJETOS FUTUROS (max-width e margin) */
+   max-width: 70rem; /*70*16= 1120 px ou 1120px / 16 = 70rem     1rem = 16px*/
+   margin: 2rem auto;
+   padding: 0 1rem;
+
+   display: grid;
+   grid-template-columns: 256px 1fr; /* Primeira coluna tem uma largura fixa de 256px e a segunda é adaptavel usando 1fr */
+   gap: 2rem; /* 32px = 16 * 2*/
+   align-items: flex-start; /* fazendo ficar alinhado para o topo nao fazendo isso vai ficar tentando os dois elementos ter a mesma altura*/
+}
+
+@media (max-width: 768px) {
+   html {
+      font-size: 87.5%;
+   }
+
+   .wrapper {
+      grid-template-columns: 1fr;
+   }
+}
+
+/* regra de 3 para saber a porcentagem da fonte para mudar quando usar REM em todo o site
+16 px é 1 rem para convertem 14px em porcentagem precisa usar regra de 3
+16 -> 100%
+14 -> x
+
+14 x 100 / 16
+*/

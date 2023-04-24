@@ -1,0 +1,15 @@
+.avatar {
+  width: 3rem; /* somando junto os px da border e do outline 4px * 2 e 2px * 2 */
+  height: 3rem;
+  border-radius: 8px;
+  background-color: var(--gray-800); /*Adicione este código para evitar problemas com imagens .png sem fundos.*/
+}
+
+.avatarWithBorder {
+  width: calc(3rem + 12px); /* somando junto os px da border e do outline 4px * 2 e 2px * 2 */
+  height: calc(3rem + 12px);
+  border-radius: 8px;
+  border: 4px solid var(--gray-800);
+  outline: 2px solid var(--green-500); /* vai criar um contorno fora da borda */
+  background-color: var(--gray-800); /*Adicione este código para evitar problemas com imagens .png sem fundos.*/
+}
