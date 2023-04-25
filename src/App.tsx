@@ -29,7 +29,7 @@ const posts: PostType[] = [
         content:
           "Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀",
       },
-      { type: "link", content: "front-end" },
+      { type: "link", content: "#front-end" },
       { type: "link#", content: "#novoprojeto" },
       { type: "link#", content: "#react" },
       { type: "link#", content: "#typescript" },
@@ -51,7 +51,7 @@ const posts: PostType[] = [
         content:
           "Trabalhe com paixão e comprometimento, e o sucesso será uma consequência natural do seu esforço.",
       },
-      { type: "link", content: "Back-end" },
+      { type: "link", content: "#Back-end" },
       { type: "link#", content: "#novoprojeto" },
       { type: "link#", content: "#react" },
       { type: "link#", content: "#typescript" },
